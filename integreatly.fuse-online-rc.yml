@@ -1,0 +1,14 @@
+imageSync:
+  sourceRepo: brew-pulp-docker01.web.prod.ext.phx2.redhat.com:8888
+  projects:
+    fuse7:
+      images:
+      - fuse-ignite-meta:1.4-13
+      - fuse-ignite-s2i:1.4-13
+      - fuse-ignite-server:1.4-14
+      - fuse-ignite-ui:1.4-6
+      - fuse-online-operator:1.4-11
+    fuse7-tech-preview:
+      images:
+      - data-virtualization-server-rhel7:1.4-15
+      - fuse-postgres-exporter:1.4-4
